@@ -8,7 +8,7 @@
         
         <style>
             
-            #map{height: 500px;}
+            #map{height: 750px;}
         </style>
     </head>
     
@@ -17,6 +17,15 @@
         <div id = "welcome">
             <h1> What's Cookin?</h1>
         </div>
+
+        <div id="page-wrapper">
+
+            <div>
+              Select a text file: 
+              <input type="file" name="file" id="file">
+            </div>
+
+          </div>
         
         <div id = "map">
         
@@ -26,7 +35,7 @@
     
 
     <script>
-        
+
         var map = L.map('map').setView([32.7,-117.1], 13);
 
         mapLink='<a href="http://openstreetmap.org">OpenStreetMap</a>';
@@ -35,6 +44,29 @@
             attribution: 'Map data &copy; ' + mapLink,
             maxZoom:18
         }).addTo(map);
+
+        document.getElementById('file').onchange = function(){
+
+          var file = this.files[0];
+
+          var reader = new FileReader();
+          reader.onload = function(progressEvent){
+    
+            // By lines
+            var lines = this.result.split('\n');
+
+            for(var line = 0; line < lines.length; line++){
+
+                if(line%8 == 0){
+                    var ls = lines[line].split(' ');
+
+                    var marker = L.marker([ls[0], ls[1]]).addTo(map);
+                }
+
+            }
+          };
+          reader.readAsText(file);
+        };
 
     </script>
 </html>
