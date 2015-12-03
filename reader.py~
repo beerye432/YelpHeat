@@ -1,0 +1,22 @@
+import json
+
+data = [];
+
+i = 0;
+
+with open('data.json') as f:
+	for line in f:
+
+		if i > 2:
+			exit()
+
+		j_content = json.loads(line)
+
+		for key, value in j_content.items():
+			print (key, value)
+
+		print(" ")
+
+		i = i + 1
+
+
