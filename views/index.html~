@@ -13,11 +13,13 @@
           <link href='https://fonts.googleapis.com/css?family=Roboto:300,700|Josefin+Sans'
             rel='stylesheet'
             type='text/css'>
+        
+          
     </head>
     
     <body>
         
-        <div id = "welcome" style = "text-align: center>
+        <div id = "welcome" style = "text-align:center; border:2x solid blue">
           <center><h1> What's Cookin?</h1></center>
         </div>
 
