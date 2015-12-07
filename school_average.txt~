@@ -1,28 +1,28 @@
-[u'Purdue University'] 3.545
-[u'Carnegie Mellon University'] 3.452
-[u'Cornell University'] 3.428
-[u'Rice University'] 3.453
-[u'University of Illinois - Urbana-Champaign'] 3.374
-[u'University of Washington'] 3.486
-[u'Brown University'] 3.451
-[u'University of Waterloo'] 3.591
-[u'Rensselaer Polytechnic Institute'] 3.455
-[u'Georgia Institute of Technology'] 3.366
-[u'Massachusetts Institute of Technology', u'Harvard University'] 3.323
-[u'University of Maryland - College Park'] 3.328
-[u'University of Massachusetts - Amherst'] 3.527
-[u'Columbia University'] 3.293
-[u'University of North Carolina - Chapel Hill'] 3.541
-[u'Stanford University'] 3.398
-[u'University of Southern California'] 3.443
-[u'University of California at Berkeley'] 3.378
-[u'California Institute of Technology'] 3.481
-[u'University of Michigan - Ann Arbor'] 3.353
-[u'University of Pennsylvania'] 3.397
-[u'University of California - Los Angeles'] 3.250
-[u'Princeton University'] 3.321
-[u'California Polytechnic State University'] 3.556
-[u'University of Texas - Austin'] 3.419
-[u'Virginia Tech'] 3.340
-[u'University of California - San Diego'] 3.286
-[u'Harvey Mudd College'] 3.411
+[u'Purdue University'] 11.086
+[u'Carnegie Mellon University'] 24.765
+[u'Cornell University'] 18.822
+[u'Rice University'] 43.381
+[u'University of Illinois - Urbana-Champaign'] 23.518
+[u'University of Washington'] 62.989
+[u'Brown University'] 40.407
+[u'University of Waterloo'] 4.833
+[u'Rensselaer Polytechnic Institute'] 11.440
+[u'Georgia Institute of Technology'] 58.055
+[u'Massachusetts Institute of Technology', u'Harvard University'] 121.176
+[u'University of Maryland - College Park'] 18.983
+[u'University of Massachusetts - Amherst'] 21.255
+[u'Columbia University'] 54.636
+[u'University of North Carolina - Chapel Hill'] 33.179
+[u'Stanford University'] 101.530
+[u'University of Southern California'] 38.732
+[u'University of California at Berkeley'] 121.330
+[u'California Institute of Technology'] 126.956
+[u'University of Michigan - Ann Arbor'] 49.835
+[u'University of Pennsylvania'] 40.027
+[u'University of California - Los Angeles'] 99.418
+[u'Princeton University'] 27.263
+[u'California Polytechnic State University'] 60.829
+[u'University of Texas - Austin'] 54.696
+[u'Virginia Tech'] 11.146
+[u'University of California - San Diego'] 74.375
+[u'Harvey Mudd College'] 63.897

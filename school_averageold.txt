@@ -1,0 +1,28 @@
+[u'Purdue University'] Average: 3.545 Total Reviews: 2071
+[u'Carnegie Mellon University'] Average: 3.452 Total Reviews: 5373
+[u'Cornell University'] Average: 3.428 Total Reviews: 3133
+[u'Rice University'] Average: 3.453 Total Reviews: 5289
+[u'University of Illinois - Urbana-Champaign'] Average: 3.374 Total Reviews: 4709
+[u'University of Washington'] Average: 3.486 Total Reviews: 11664
+[u'Brown University'] Average: 3.451 Total Reviews: 7800
+[u'University of Waterloo'] Average: 3.591 Total Reviews: 771
+[u'Rensselaer Polytechnic Institute'] Average: 3.455 Total Reviews: 2409
+[u'Georgia Institute of Technology'] Average: 3.366 Total Reviews: 11029
+[u'Massachusetts Institute of Technology', u'Harvard University'] Average: 3.323 Total Reviews: 34171
+[u'University of Maryland - College Park'] Average: 3.328 Total Reviews: 3842
+[u'University of Massachusetts - Amherst'] Average: 3.527 Total Reviews: 1959
+[u'Columbia University'] Average: 3.293 Total Reviews: 10856
+[u'University of North Carolina - Chapel Hill'] Average: 3.541 Total Reviews: 5274
+[u'Stanford University'] Average: 3.398 Total Reviews: 8568
+[u'University of Southern California'] Average: 3.443 Total Reviews: 7110
+[u'University of California at Berkeley'] Average: 3.378 Total Reviews: 22448
+[u'California Institute of Technology'] Average: 3.481 Total Reviews: 13146
+[u'University of Michigan - Ann Arbor'] Average: 3.353 Total Reviews: 8321
+[u'University of Pennsylvania'] Average: 3.397 Total Reviews: 8373
+[u'University of California - Los Angeles'] Average: 3.250 Total Reviews: 13359
+[u'Princeton University'] Average: 3.321 Total Reviews: 5343
+[u'California Polytechnic State University'] Average: 3.556 Total Reviews: 7496
+[u'University of Texas - Austin'] Average: 3.419 Total Reviews: 9111
+[u'Virginia Tech'] Average: 3.340 Total Reviews: 1173
+[u'University of California - San Diego'] Average: 3.286 Total Reviews: 7146
+[u'Harvey Mudd College'] Average: 3.411 Total Reviews: 6837

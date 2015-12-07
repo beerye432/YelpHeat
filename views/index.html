@@ -5,6 +5,7 @@
     <head>
          <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
         <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+        <script src = '/javascripts/leaflet-heat.js'></script>
         
         <style>
             
@@ -15,7 +16,7 @@
     <body>
         
         <div id = "welcome">
-            <h1> What's Cookin?</h1>
+            <h1 style = "color: red"> What's COOKING?</h1>
         </div>
 
         <div id="page-wrapper">
@@ -49,12 +50,37 @@
 
           var file = this.files[0];
 
+          
+
           var reader = new FileReader();
           reader.onload = function(progressEvent){
+
+            var heat = [];
     
             // By lines
             var lines = this.result.split('\n');
 
+            for(var line = 0; line < lines.length-1; line++){
+
+              var heatmini = [];
+
+              var ls = lines[line].split(' ');
+
+              heatmini[0] = ls[0];
+              heatmini[1] = ls[1];
+              heatmini[2] = ls[2];
+
+              heat[line] = heatmini;
+
+            }
+
+            var heats = L.heatLayer(heat, {radius: 50}).addTo(map);
+          };
+          reader.readAsText(file);
+        };
+
+
+/*
             for(var line = 0; line < lines.length; line++){
 
                 if(line%2 == 0){
@@ -67,6 +93,9 @@
           };
           reader.readAsText(file);
         };
+
+  */
+
 
     </script>
 </html>
