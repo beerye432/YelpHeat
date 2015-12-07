@@ -18,7 +18,7 @@
             <link href='https://fonts.googleapis.com/css?family=Roboto:300,700|Josefin+Sans'
             rel='stylesheet'
             type='text/css'>
-          <h1> What's Cookin?</h1>
+          <center><h1> What's Cookin?</h1></center>
         </div>
 
         <div id="page-wrapper">
