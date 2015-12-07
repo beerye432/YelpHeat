@@ -15,7 +15,9 @@
     <body>
         
         <div id = "welcome">
-            <h1> What's Cookin?</h1>
+            <link href='https://fonts.googleapis.com/css?family=Roboto:300,700|Josefin+Sans'
+          rel='stylesheet'
+          type='text/css'<h1> What's Cookin?</h1>
         </div>
 
         <div id="page-wrapper">
