@@ -21,6 +21,8 @@ with open('data.json') as f:
 				rating = float(j_content['stars'])
 
 				name = str(j_content['schools'])
+				
+				numRate = int(j_content['review_count']
 
 				reviews = int(j_content['review_count'])
 
@@ -34,13 +36,10 @@ with open('data.json') as f:
 
 				lat_long_rate.write(str(j_content['latitude'])+ ' ' +str(j_content['longitude']) + ' ' + str(j_content['stars']/5) + '\n')
 
-				i = i + 1;
 
 for school in schools:
 	school_average.write(str(school) + ' Average: ' + str("{0:.3f}".format(schools[school][0]/schools[school][1])) + ' Total Reviews: ' + str(schools[school][2]) + '\n')
 
-
-print(i)
-
-
 school_average.close()
+
+lat_long_rate.close()
