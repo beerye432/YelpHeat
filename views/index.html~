@@ -17,7 +17,7 @@
     
     <body>
         
-        <div id = "welcome">
+        <div id = "welcome" style = "text-align: center>
           <center><h1> What's Cookin?</h1></center>
         </div>
 
