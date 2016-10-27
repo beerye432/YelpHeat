@@ -42,4 +42,5 @@ for school in schools:
 
 school_average.close()
 
+#This comment is for performance 
 lat_long_rate.close()
