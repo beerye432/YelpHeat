@@ -48,6 +48,8 @@ if (app.get('env') === 'development') {
   });
 }
 
+//Why didn't you add routing to make a request for latlong data?
+
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
